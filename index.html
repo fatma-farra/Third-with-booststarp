@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Home slider -->
+    <div id="carouselExampleIndicators" class="carousel slide slider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="home-slider carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+            <div class="carousel-caption d-md-block">
+                <h3>
+                    We’re an Independent Design and <span id="marked">Development</span> Agency.
+                </h3>
+            </div>
+    </div>
+    <!-- Services Section -->
+    <div class="services my-10">
+        <div class="container">
+            <div class="service-item sm-item col-lg mx-3">
+                <div class="icon">
+                    <i class="far fa-lightbulb"></i>
+                </div>
+                <div class="service-info my-3">
+                    <h4 class="service-title">
+                        great ideas
+                    </h4>
+                    <p class="desc text-secondary">
+                        Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
+                    </p>
+                </div>
+            </div>
+            <div class="service-item sm-item col-lg mx-3">
+                <div class="icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div class="service-info my-3">
+                    <h4 class="service-title">
+                        quick settings
+                    </h4>
+                    <p class="desc text-secondary">
+                        Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
+                    </p>
+                </div>
+            </div>
+            <div class="service-item sm-item col-lg mx-3">
+                <div class="icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <div class="service-info my-3">
+                    <h4 class="service-title">
+                        cloud service
+                    </h4>
+                    <p class="desc text-secondary">
+                        Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
+                    </p>
+                </div>
+            </div>
+            <div class="service-item sm-item col-lg mx-3">
+                <div class="icon">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+                <div class="service-info my-3">
+                    <h4 class="service-title">
+                        cross development
+                    </h4>
+                    <p class="desc text-secondary">
+                        Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Overview Section -->
+    <div class="overview py-10 ">
+        <div class="container px-10">
+            <h3 class="overview-title title">
+                company overview
+            </h3>
+            <p class="desc text-secondary mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+            </p>
+            <span class="text-secondary mt-4">let's start today</span>
+            <button class="btn mt-4">view more</button>
+        </div>
+    </div>
+    <!-- Featured Section -->
+    <div class="featured mt-10">
+        <div class="container">
+            <h3 class="title">
+                featured work
+            </h3>
+            <p class="desc text-secondary mt-4 px-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+            </p>
+            <div class="btn-group my-3">
+                <button class="btn feat-btn m-2 active">all</button>
+                <button class="btn feat-btn m-2">website</button>
+                <button class="btn feat-btn m-2">logo and branding</button>
+                <button class="btn feat-btn m-2">graphic design</button>
+                <button class="btn feat-btn m-2">online marketing</button>
+                <button class="btn feat-btn m-2">video</button>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Section -->
+    <div class="portfolio py-5">
+        <div class="port-item sm-item">
+            <img src="images/featured_work-1.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="port-item sm-item">
+            <img src="images/featured_work-2.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="port-item sm-item">
+            <img src="images/featured_work-3.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="port-item sm-item">
+            <img src="images/featured_work-4.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="port-item sm-item">
+            <img src="images/featured_work-5.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="port-item sm-item">
+            <img src="images/featured_work-6.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="port-item sm-item">
+            <img src="images/featured_work-7.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="port-item sm-item">
+            <img src="images/featured_work-8.png" alt="">
+            <div class="hover-overlay">
+                <div class="item-info">
+                    <div class="inner">
+                        <h4>Illustration</h4>
+                        <span>web design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest Post Section -->
+    <div class="latest-post my-10">
+        <div class="container">
+            <h3 class="title">
+                latest post
+            </h3>
+            <p class="desc text-secondary mt-4 px-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+            </p>
+            <div class="card-group my-7">
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="images/post1.png" class="card-img-top" alt="post">
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and</h5>
+                      <span class="date text-secondary">March 24 2017</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.</p>
+                      <a href="#" class="read-m">Read more</a>
+                    </div>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="images/post2.png" class="card-img-top" alt="post">
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and</h5>
+                      <span class="date text-secondary">March 24 2017</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.</p>
+                      <a href="#" class="read-m">Read more</a>
+                    </div>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="images/post3.png" class="card-img-top" alt="post">
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and</h5>
+                      <span class="date text-secondary">March 24 2017</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.</p>
+                      <a href="#" class="read-m">Read more</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testmonial Section -->
+    <div class="testm mt-5">
+        <div id="carouselIndicators" class="carousel slide slider" data-bs-ride="carousel">
+            <div class="overlay"></div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="content container">
+                        <div>
+                            <img src="images/testi-thumb.png" alt="">
+                        </div>
+                        <div class="testm-info mt-2">
+                            <h4>jame jonathan</h4>
+                            <span>Company CEO</span>
+                        </div>
+                        <p class="desc mt-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nq.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="content container">
+                        <div>
+                            <img src="images/testi-thumb.png" alt="">
+                        </div>
+                        <div class="testm-info mt-2">
+                            <h4>jame jonathan</h4>
+                            <span>Company CEO</span>
+                        </div>
+                        <div class="desc mt-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nq.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="content container">
+                        <div>
+                            <img src="images/testi-thumb.png" alt="">
+                        </div>
+                        <div class="testm-info mt-2">
+                            <h4>jame jonathan</h4>
+                            <span>Company CEO</span>
+                        </div>
+                        <div class="desc mt-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nq.
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Pricing Section -->
+    <div class="pricing py-10">
+        <div class="container">
+            <h3 class="title">
+                pricing table
+            </h3>
+            <p class="desc text-secondary mt-4 px-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+            </p>
+            <div class="price-table my-7">
+                <div class="price-item sm-item mx-3">
+                    <div class="head">
+                        <h4>small business</h4>
+                        <span>Lorem ipsum</span>
+                    </div>
+                    <div class="price-info">
+                        <span class="price">$99/</span>
+                        <span>year</span>
+                    </div>
+                    <ul class="plan-wrap">
+                        <li>1 Hosting</li>
+                        <li>Upto 10 users</li>
+                        <li>3 Databases</li>
+                        <li>Website Builder</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <button class="btn mt-4">buy now</button>
+                </div>
+                <div class="price-item sm-item mx-3">
+                    <div class="head">
+                        <h4>corporate</h4>
+                        <span>Lorem ipsum</span>
+                    </div>
+                    <div class="price-info marked">
+                        <span class="price">$199/</span>
+                        <span>year</span>
+                    </div>
+                    <ul class="plan-wrap">
+                        <li>1 Hosting</li>
+                        <li>Upto 10 users</li>
+                        <li>3 Databases</li>
+                        <li>Website Builder</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <button class="btn mt-4">buy now</button>
+                </div>
+                <div class="price-item sm-item mx-3">
+                    <div class="head">
+                        <h4>Enterprices</h4>
+                        <span>Lorem ipsum</span>
+                    </div>
+                    <div class="price-info">
+                        <span class="price">$299/</span>
+                        <span>year</span>
+                    </div>
+                    <ul class="plan-wrap">
+                        <li>1 Hosting</li>
+                        <li>Upto 10 users</li>
+                        <li>3 Databases</li>
+                        <li>Website Builder</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <button class="btn mt-4">buy now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why-us Section -->
+    <div class="why-us">
+        <div class="row container-fluid">
+            <div class="col left">
+            </div>
+            <div class="col right">
+                <div class="content py-5 p-5">
+                    <h4 class="title">why choose us</h4>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                    <button class="btn mt-4">read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Achivement Section -->
+    <div class="achive my-10">
+        <div class="container">
+            <div class="item sm-item col">
+                <div class="num">
+                    <i class="fas fa-user-tie"></i>
+                    624
+                </div>
+                <span>happy clients</span>
+            </div>
+            <div class="item sm-item col my-3">
+                <div class="num">
+                    <i class="fas fa-umbrella-beach"></i>
+                    112
+                </div>
+                <span>amazing tours</span>
+            </div>
+            <div class="item sm-item col my-3">
+                <div class="num">
+                    <i class="fas fa-briefcase"></i>
+                    595
+                </div>
+                <span>partners</span>
+            </div>
+            <div class="item sm-item col my-3">
+                <div class="num">
+                    <i class="fas fa-comment-alt"></i>
+                    12
+                </div>
+                <span>quastions answered</span>
+            </div>
+        </div>
+    </div>
+    <!-- Contact-head Section -->
+    <div class="contact-head mt-5">
+        <div class="container">
+            <h3>You think we're cool? let's work together</h3>
+            <button class="btn mt-4">contact us</button>
+        </div>
+    </div>
+    <!-- footer Section -->
+    <div class="footer">
+        <div class="container pt-10 mb-5">
+            <div class="item sm-item mx-4">
+                <div class="logo mb-5">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                </p>
+                <a href="" class="more"><i class="fas fa-chevron-right"></i>Read more</a>
+            </div>
+            <div class="item sm-item mx-4">
+                <h5 class="title mb-5">helpful links</h5>
+                <div class="link">
+                    <ul class="mr-2">
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">about</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">portfolio</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">team</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">pricing</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">privecy policy</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">FAQ</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">blog</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">how it works</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">benifits</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i><a href="">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item sm-item">
+                <h5 class="title mb-5">contact us</h5>
+                    <div class="contact desc">
+                        54958 Levo Road Near Red Fort, U.S
+                        <br>
+                        <span>Phone:</span> 012-12345678
+                        <br>
+                        <span>Email:</span> info@elitecorp.com
+                    </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container py-3 end">
+            <p class="text-secondary">COPYRIGHT 2017 ELITECORP | ALL RIGHTS RESERVED</p>
+            <div class="social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
