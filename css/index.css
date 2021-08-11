@@ -250,6 +250,7 @@ button.btn.mt-4:hover{
     border: 1px solid var(--main-color);
     color: var(--main-color);
     width: fit-content;
+    font-family: 'Rajdhani',sans-serif;
 }
 
 .featured .feat-btn:hover, .featured .feat-btn.active{
